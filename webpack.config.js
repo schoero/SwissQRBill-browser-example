@@ -16,4 +16,7 @@ module.exports = {
     watchContentBase: true,
     port: 8088
   },
+  resolve: {
+    extensions: [".ts", ".js"]
+  }
 };
