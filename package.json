@@ -4,7 +4,7 @@
   "description": "Browser integration for SwissQRBill",
   "browser": "./lib/index.js",
   "scripts": {
-    "test": "webpack-dev-server --host 0.0.0.0 --output-public-path=/lib/ --mode development --watch"
+    "start": "webpack-dev-server --host 0.0.0.0 --output-public-path=/lib/ --mode development --watch"
   },
   "repository": {
     "type": "git",
