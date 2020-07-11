@@ -1,20 +1,21 @@
 module.exports = {
   entry: "./src/index.ts",
+  devtool: "inline-source-map",
   output: {
-    path: __dirname + "/lib/",
-    filename: "[name].js"
+    path: "/lib/",
+    filename: "index.js"
   },
   module: {
     rules: [
       {
-        test: /\.(ts|tsx)$/,
-        loader: "awesome-typescript-loader"
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
       }
     ]
   },
   devServer: {
-    watchContentBase: true,
-    port: 8088
+    port: 80
   },
   resolve: {
     extensions: [".ts", ".js"]

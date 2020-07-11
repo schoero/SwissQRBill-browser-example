@@ -1,4 +1,4 @@
-import SwissQRBill from "swissqrbill";
+import SwissQRBill from "swissqrbill/lib/browser";
 
 const data: SwissQRBill.data = {
   currency: "CHF",
@@ -21,6 +21,13 @@ const data: SwissQRBill.data = {
   }
 };
 
-const pdf = new SwissQRBill.PDF(data, "qrbill.pdf", () => {
+
+const stream = SwissQRBill.BlobStream();
+
+const pdf = new SwissQRBill.PDF(data, stream, () => {
+  const iframe = document.getElementById("iframe") as HTMLIFrameElement;
+  if(iframe){
+    iframe.src = stream.toBlobURL("application/pdf");
+  }
   console.log("PDF has been successfully created.");
 });
