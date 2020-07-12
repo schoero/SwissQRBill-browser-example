@@ -1,5 +1,5 @@
 {
-  "name": "swissqrbill-webpack-example",
+  "name": "swissqrbill-browser-example",
   "version": "0.1.0",
   "description": "Browser integration for SwissQRBill",
   "browser": "./lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rogerrrrrrrs/SwissQRBill-webpack-example.git"
+    "url": "git+https://github.com/Rogerrrrrrrs/SwissQRBill-browser-example.git"
   },
   "keywords": [
     "swissqrbill"
@@ -16,9 +16,9 @@
   "author": "Roger Schönbächler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rogerrrrrrrs/SwissQRBill-webpack-example/issues"
+    "url": "https://github.com/Rogerrrrrrrs/SwissQRBill-browser-example/issues"
   },
-  "homepage": "https://github.com/Rogerrrrrrrs/SwissQRBill-webpack-example#readme",
+  "homepage": "https://github.com/Rogerrrrrrrs/SwissQRBill-browser-example#readme",
   "dependencies": {
     "swissqrbill": "git+https://github.com/Rogerrrrrrrs/SwissQRBill.git#experimental-browser-support"
   },
