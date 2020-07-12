@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Rogerrrrrrrs/SwissQRBill-browser-example#readme",
   "dependencies": {
-    "swissqrbill": "git+https://github.com/Rogerrrrrrrs/SwissQRBill.git#experimental-browser-support"
+    "swissqrbill": "^2.0.0"
   },
   "devDependencies": {
     "ts-loader": "^8.0.0",
