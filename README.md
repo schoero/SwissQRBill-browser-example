@@ -54,4 +54,4 @@ To run it localy please run these commands:
 
 Open http://localhost:80 in your browser. You should see a generated PDF that looks like this:
 
-[<img src="https://raw.githubusercontent.com/Rogerrrrrrrs/SwissQRBill/master/assets/complete-qr-bill.png">](https://github.com/Rogerrrrrrrs/SwissQRBill/tree/master/doc/how-to-create-a-complete-bill.md)
+[<img src="https://raw.githubusercontent.com/Rogerrrrrrrs/SwissQRBill/master/assets/qrbill.png">](https://github.com/Rogerrrrrrrs/SwissQRBill/tree/master/doc/assets/qrbill.pdf)
