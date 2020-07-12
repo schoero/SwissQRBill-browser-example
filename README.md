@@ -36,7 +36,7 @@ pdf.on("finish", () => {
 });
 ```
 
-To run it localy please run these commands:
+To test ist please clone this repo and run it localy please using these commands:
 
 ##### Clone repo localy
 
