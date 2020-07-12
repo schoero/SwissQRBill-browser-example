@@ -27,7 +27,7 @@ const data: SwissQRBill.data = {
 };
 
 
-const stream = SwissQRBill.BlobStream();
+const stream = SwissQRBill.blobStream();
 
 const pdf = new SwissQRBill.PDF(data, stream);
 
@@ -36,7 +36,7 @@ pdf.on("finish", () => {
 });
 ```
 
-To test ist please clone this repo and run it localy please using these commands:
+To test ist please clone this repo and run it localy using these commands:
 
 ##### Clone repo localy
 
