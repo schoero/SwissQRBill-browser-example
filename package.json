@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/Rogerrrrrrrs/SwissQRBill-browser-example#readme",
   "dependencies": {
-    "swissqrbill": "^2.0.0"
+    "swissqrbill": "^2.0.2"
   },
   "devDependencies": {
-    "ts-loader": "^8.0.0",
-    "typescript": "^3.9.6",
-    "webpack": "^4.43.0",
+    "ts-loader": "^8.0.3",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
