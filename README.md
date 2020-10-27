@@ -52,6 +52,6 @@ To test, please clone this repo and run it localy using these commands:
 
 ##### Open Browser
 
-Open http://localhost:80 in your browser. You should see a generated PDF that looks like this:
+Open http://localhost:8000 in your browser. You should see a generated PDF that looks like this:
 
 [<img src="https://raw.githubusercontent.com/Rogerrrrrrrs/SwissQRBill/master/assets/qrbill.png">](https://github.com/Rogerrrrrrrs/SwissQRBill/blob/master/assets/qrbill.pdf)
