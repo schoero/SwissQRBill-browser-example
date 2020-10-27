@@ -23,7 +23,7 @@
     "swissqrbill": "^2.0.2"
   },
   "devDependencies": {
-    "ts-loader": "^8.0.3",
+    "ts-loader": "^8.0.7",
     "typescript": "^3.9.7",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
