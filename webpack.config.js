@@ -15,7 +15,8 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 8000
+    port: 8000,
+    publicPath: "/lib/"
   },
   resolve: {
     extensions: [".ts", ".js"]
