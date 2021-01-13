@@ -48,7 +48,7 @@ To test, please clone this repo and run it localy using these commands:
 
 ##### Start webpack dev server
 
-`npm run-script start`
+`npm run start`
 
 ##### Open Browser
 
