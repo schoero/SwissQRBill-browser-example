@@ -1,6 +1,6 @@
 # SwissQRBill-browser-example
 
-This is an example library to show how to use [SwissQRBill](https://github.com/Rogerrrrrrrs/SwissQRBill/) inside the browser.
+This is an example library to show how to use [SwissQRBill](https://github.com/schoero/SwissQRBill/) inside the browser.
 
 ```js
 import SwissQRBill from "swissqrbill/lib/browser";
@@ -40,7 +40,7 @@ To test, please clone this repo and run it localy using these commands:
 
 ##### Clone repo localy
 
-`git clone https://github.com/Rogerrrrrrrs/SwissQRBill-browser-example.git`
+`git clone https://github.com/schoero/SwissQRBill-browser-example.git`
 
 ##### Install dependencies
 
@@ -54,4 +54,4 @@ To test, please clone this repo and run it localy using these commands:
 
 Open http://localhost:8000 in your browser. You should see a generated PDF that looks like this:
 
-[<img src="https://raw.githubusercontent.com/Rogerrrrrrrs/SwissQRBill/master/assets/qrbill.png">](https://github.com/Rogerrrrrrrs/SwissQRBill/blob/master/assets/qrbill.pdf)
+[<img src="https://raw.githubusercontent.com/schoero/SwissQRBill/master/assets/qrbill.png">](https://github.com/schoero/SwissQRBill/blob/master/assets/qrbill.pdf)
