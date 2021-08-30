@@ -15,8 +15,13 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 8000,
-    publicPath: "/lib/"
+    static: {
+      directory: "./",
+    },
+    devMiddleware: {
+      publicPath: "/lib/"
+    },
+    port: 8000
   },
   resolve: {
     extensions: [".ts", ".js"]
