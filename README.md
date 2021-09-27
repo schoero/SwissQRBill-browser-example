@@ -1,9 +1,9 @@
 # SwissQRBill-browser-example
 
-This is an example library to show how to use [SwissQRBill](https://github.com/schoero/SwissQRBill/) inside the browser.
+This repository is an example how you could bundle [SwissQRBill](https://github.com/schoero/SwissQRBill/) yourself using webpack for usage inside a browser.
 
 ```js
-import SwissQRBill from "swissqrbill/lib/browser";
+import { PDF, BlobStream } from "swissqrbill/browser";
 
 const data: SwissQRBill.data = {
   currency: "CHF",
@@ -27,9 +27,8 @@ const data: SwissQRBill.data = {
 };
 
 
-const stream = new SwissQRBill.BlobStream();
-
-const pdf = new SwissQRBill.PDF(data, stream);
+const stream = new BlobStream();
+const pdf = new PDF(data, stream);
 
 pdf.on("finish", () => {
   window.location.href = stream.toBlobURL("application/pdf");
@@ -52,6 +51,7 @@ To test, please clone this repo and run it localy using these commands:
 
 ##### Open Browser
 
-Open http://localhost:8000 in your browser. You should see a generated PDF that looks like this:
+Open http://localhost:8000/pdf.html or http://localhost:8000/svg.html in your browser. You should see a generated pdf/svg that looks like this:
+:
 
 [<img src="https://raw.githubusercontent.com/schoero/SwissQRBill/master/assets/qrbill.png">](https://github.com/schoero/SwissQRBill/blob/master/assets/qrbill.pdf)
