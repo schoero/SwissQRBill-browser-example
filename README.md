@@ -52,6 +52,5 @@ To test, please clone this repo and run it localy using these commands:
 ##### Open Browser
 
 Open http://localhost:8000/pdf.html or http://localhost:8000/svg.html in your browser. You should see a generated pdf/svg that looks like this:
-:
 
 [<img src="https://raw.githubusercontent.com/schoero/SwissQRBill/master/assets/qrbill.png">](https://github.com/schoero/SwissQRBill/blob/master/assets/qrbill.pdf)
