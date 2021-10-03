@@ -1,6 +1,6 @@
 # SwissQRBill-browser-example
 
-This repository is an example how you could bundle [SwissQRBill](https://github.com/schoero/SwissQRBill/) yourself using webpack for usage inside a browser.
+This repository is an example how you could bundle [SwissQRBill > v3.0.0](https://github.com/schoero/SwissQRBill/) by yourself using webpack for the usage inside a browser. For instructions on [SwissQRBill v2.x](https://github.com/schoero/SwissQRBill/tree/v2.4.2) visit [this link](https://github.com/schoero/SwissQRBill-browser-example/tree/v2). 
 
 ```js
 import { PDF, BlobStream } from "swissqrbill/browser";
