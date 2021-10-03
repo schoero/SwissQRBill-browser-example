@@ -1,6 +1,6 @@
-import SwissQRBill from "swissqrbill/lib/browser";
+import { SVG } from "swissqrbill/svg";
 
-const data: SwissQRBill.data = {
+const data = {
   currency: "CHF",
   amount: 1199.95,
   reference: "210000000003139471430009017",
@@ -21,12 +21,7 @@ const data: SwissQRBill.data = {
   }
 };
 
-
-const stream = new SwissQRBill.BlobStream();
-
-const pdf = new SwissQRBill.PDF(data, stream);
-
-pdf.on("finish", () => {
-  window.location.href = stream.toBlobURL("application/pdf");
-  console.log("PDF has been successfully created.");
-});
+window.onload = () => {
+  const svg = new SVG(data);
+  document.body.appendChild(svg.element)
+}
