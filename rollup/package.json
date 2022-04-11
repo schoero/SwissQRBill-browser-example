@@ -1,0 +1,32 @@
+{
+  "name": "swissqrbill-browser-example",
+  "version": "0.1.0",
+  "description": "Browser integration for SwissQRBill",
+  "browser": "./lib/index.js",
+  "scripts": {
+    "start": "rollup -c && wds --node-resolve --port 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schoero/SwissQRBill-browser-example.git"
+  },
+  "keywords": [
+    "swissqrbill"
+  ],
+  "author": "Roger Schönbächler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schoero/SwissQRBill-browser-example/issues"
+  },
+  "homepage": "https://github.com/schoero/SwissQRBill-browser-example#readme",
+  "dependencies": {
+    "swissqrbill": "^3.1.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@web/dev-server": "^0.1.30",
+    "rollup": "^2.70.1",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
