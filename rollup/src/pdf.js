@@ -1,4 +1,4 @@
-import { PDF, BlobStream } from "swissqrbill/lib/browser/bundle/index.js";
+import { PDF, BlobStream } from "swissqrbill/bundle";
 
 
 const data = {
