@@ -26,7 +26,6 @@ const data: SwissQRBill.data = {
   }
 };
 
-
 const stream = new BlobStream();
 const pdf = new PDF(data, stream);
 
@@ -35,19 +34,25 @@ pdf.on("finish", () => {
 });
 ```
 
-To test, please clone this repo and run it localy using these commands:
+To test, please clone this repo and run it locally using the following commands:
 
-##### Clone repo localy
+##### Clone repository locally
 
-`git clone https://github.com/schoero/SwissQRBill-browser-example.git`
+```bash
+git clone https://github.com/schoero/SwissQRBill-browser-example.git
+```
 
 ##### Install dependencies
 
-`cd SwissQRBill-browser-example && npm install`
+```bash
+cd SwissQRBill-browser-example && npm install
+```
 
 ##### Start webpack dev server
 
-`npm run start`
+```bash
+npm run start
+```
 
 ##### Open Browser
 
